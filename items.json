@@ -25,7 +25,7 @@
       "name": "Orange Tulip",
       "rarity": "Uncommon",
       "regex": "i)tulip",
-      "icon": "OrangeTulip.ico",
+      "icon": "OrangeTulipSeed.ico",
       "price": 600
     },
     {
@@ -36,10 +36,17 @@
       "price": 800
     },
     {
+      "name": "Corn",
+      "rarity": "Rare",
+      "regex": "i)corn",
+      "icon": "CornSeed.ico",
+      "price": 1000
+    },    
+    {
       "name": "Daffodil",
       "rarity": "Rare",
       "regex": "i)daff",
-      "icon": "Daffodil.ico",
+      "icon": "DaffodilSeed.ico",
       "price": 1000
     },
     {
@@ -162,38 +169,6 @@
       "regex": "i)pinecone"
     }   
   ],
-  "Eggs": [
-    {
-      "name": "Common",
-      "regex": "i)common.?egg",
-      "cost": 50000
-    },
-    {
-      "name": "Mythical",
-      "regex": "i)mythical.?egg",
-      "cost": 8000000
-    },
-    {
-      "name": "Bug",
-      "regex": "i)bug.?egg",
-      "cost": 50000000
-    },
-    {
-      "name": "Common Summer",
-      "regex": "i)common.?summer.?egg",
-      "cost": 1000000
-    },
-    {
-      "name": "Rare Summer",
-      "regex": "i)rare.?summer.?egg",
-      "cost": 25000000
-    },
-    {
-      "name": "Paradise",
-      "regex": "i)paradise.?egg",
-      "cost": 50000000
-    }
-  ],
   "Gear": [
     {
       "name": "Watering Can",
@@ -231,12 +206,26 @@
       "regex": "i)advanced.?sprinkler"
     },
     {
+      "name": "Medium Toy",
+      "rarity": "Legendary",
+      "price": 4000000,
+      "icon": "MediumToy.ico",
+      "regex": "i)toy"
+    },    
+    {
+      "name": "Medium Treat",
+      "rarity": "Legendary",
+      "price": 4000000,
+      "icon": "MediumTreat.ico",
+      "regex": "i)treat"
+    },
+    {
       "name": "Godly Sprinkler",
       "rarity": "Mythical",
       "price": 120000,
       "icon": "GodlySprinkler.ico",
       "regex": "i)godly.?sprinkler"
-    },
+    },    
     {
       "name": "Magnifying Glass",
       "rarity": "Mythical",
@@ -285,6 +274,45 @@
       "price": 15000000,
       "icon": "FriendshipPot.ico",
       "regex": "i)friendship"
-    } 
-  ]
+    },
+    {
+      "name": "Levelup Lollipop",
+      "rarity": "Prismatic",
+      "price": 10000000000,
+      "icon": "FriendshipPot.ico",
+      "regex": "i)friendship"
+    }
+  ],
+  "Eggs": [
+    {
+      "name": "Common",
+      "regex": "i)common.?egg",
+      "cost": 50000
+    },
+    {
+      "name": "Common Summer",
+      "regex": "i)common.?summer.?egg",
+      "cost": 1000000
+    },
+    {
+      "name": "Rare Summer",
+      "regex": "i)rare.?summer.?egg",
+      "cost": 25000000
+    },    
+    {
+      "name": "Mythical",
+      "regex": "i)mythical.?egg",
+      "cost": 8000000
+    },
+    {
+      "name": "Paradise",
+      "regex": "i)paradise.?egg",
+      "cost": 50000000
+    },    
+    {
+      "name": "Bug",
+      "regex": "i)bug.?egg",
+      "cost": 50000000
+    }
+  ]  
 }
