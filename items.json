@@ -287,31 +287,37 @@
     {
       "name": "Common",
       "regex": "i)common.?egg",
+      "icon": "",
       "cost": 50000
     },
     {
       "name": "Common Summer",
       "regex": "i)common.?summer.?egg",
+      "icon": "",
       "cost": 1000000
     },
     {
       "name": "Rare Summer",
       "regex": "i)rare.?summer.?egg",
+      "icon": "",
       "cost": 25000000
     },    
     {
       "name": "Mythical",
       "regex": "i)mythical.?egg",
+      "icon": "",
       "cost": 8000000
     },
     {
       "name": "Paradise",
       "regex": "i)paradise.?egg",
+      "icon": "",
       "cost": 50000000
     },    
     {
       "name": "Bug",
       "regex": "i)bug.?egg",
+      "icon": "",
       "cost": 50000000
     }
   ]  
