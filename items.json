@@ -167,7 +167,14 @@
       "cost": 55000000,
       "icon": "GiantPineconeSeed.ico",
       "regex": "i)pinecone"
-    }   
+    },
+    {
+      "name": "Elder Strawberry",
+      "rarity": "Prismatic",
+      "cost": 70000000,
+      "icon": "ElderStrawberrySeed.ico",
+      "regex": "i)elder"
+    }    
   ],
   "Gear": [
     {
