@@ -185,6 +185,13 @@
       "regex": "i)watering"
     },
     {
+      "name": "Trading Ticket",
+      "rarity": "Uncommon",
+      "cost": 100000,
+      "icon": "TradingTicket.ico",
+      "regex": "i)ticket"
+    },    
+    {
       "name": "Trowel",
       "rarity": "Uncommon",
       "cost": 100000,
@@ -252,7 +259,7 @@
       "rarity": "Divine",
       "cost": 10000000,
       "icon": "MasterSprinkler.ico",
-      "regex": "i)master.?sprinkler"
+      "regex": "i)^(?!.*grand).*master.?sprinkler"
     },
     {
       "name": "Cleaning Spray",
@@ -282,6 +289,13 @@
       "icon": "FriendshipPot.ico",
       "regex": "i)friendship"
     },
+    {
+      "name": "Grandmaster Sprinkler",
+      "rarity": "Prismatic",
+      "cost": 1000000000,
+      "icon": "GrandmasterSprinkler.ico",
+      "regex": "i)grand.?sprinkler"
+    },    
     {
       "name": "Levelup Lollipop",
       "rarity": "Prismatic",
